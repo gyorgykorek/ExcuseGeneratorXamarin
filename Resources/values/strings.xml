@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Excuse Generator</string>
+    <string name="action_settings">Settings</string>
+	<string-array name="dropdown_arrays">
+		<item>Válassz kategóriát!</item>
+		<item>Miért késtem?</item>
+		<item>Miért nincs kész határidőre?</item>
+		<item>Miért nem edzek ma?</item>
+		<item>Miért nem kezdem el ma?</item>
+		<item>Miért nem tudok nálad aludni?</item>
+		<item>Gazdaságtudományok</item>
+		<item>Informatika - Programozás</item>
+		<item>Jogi</item>
+		<item>Műszaki</item>
+		<item>Művészet</item>
+		<item>Orvos- és egészségtudomány</item>
+		<item>Sporttudomány</item>
+		<item>COD: Warzone</item>
+	</string-array>
+	<string-array name="dropdown_arrays_eng">
+		<item>Choose a category!</item>
+		<item>Why was I late?</item>
+		<item>Why isn´t it ready by the deadline?</item>
+		<item>Why am I not training today?</item>
+		<item>Why can´t I sleep with you?</item>
+		<item>Economist - Business Sciences</item>
+		<item>IT - Computer Science</item>
+		<item>COD : Warzone</item>
+
+
+
+
+
+
+
+
+	</string-array>
+</resources>

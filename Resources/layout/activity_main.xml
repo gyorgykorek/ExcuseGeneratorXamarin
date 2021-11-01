@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/appbg"
+ 
+    android:layout_height="match_parent">
+    
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="0.0dp">
+
+        <ImageView
+            android:src="@drawable/bull1app"
+            android:layout_width="320px"
+            android:layout_height="250px"
+            android:layout_gravity="center"
+            android:id="@+id/imageView1"
+            android:layout_marginBottom="5dp" />
+        <Spinner
+            android:entries="@array/dropdown_arrays"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#194E6B"
+            android:id="@+id/spinner1"
+            android:layout_marginBottom="19.0dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4">
+         <TextView
+            android:text="Kezdhetjük a bullsh*tek gyártását?"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:textColor="#194E6B"
+            android:id="@+id/textView3"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:onClick="TextView3_Click"/>
+        </LinearLayout>
+
+        <Button
+            android:text="Kifogás generálás"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:backgroundTint="#14BF98"
+            android:layout_marginRight="0.0dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="Generate"/>
+        <TextView
+            android:text="\nChange language: ENG\n"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:background="@drawable/eng"
+                android:id="@+id/imageButton1"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="8.0dp" />
+            <ImageButton
+                android:layout_width="100px"
+                android:layout_gravity="center"
+                android:layout_height="100px"
+                android:background="@drawable/HUN"
+                android:visibility="visible"
+                android:layout_marginLeft="8.0dp"
+                android:id="@+id/imageButton2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3"
+            android:gravity="bottom|center">
+            <ImageView
+                android:src="@drawable/logo_max_alt"
+                android:layout_width="220px"
+                android:layout_height="140px"
+                android:layout_gravity="center"
+                android:id="@+id/imageView3" />
+            <TextView
+                android:text="www.simplifyit.hu"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#14BF98"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Széleskörű IT szolgáltató elérhető áron!"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"/>
+            <TextView
+                android:text="Szívesen látnád a saját kifogásod? Írj az info@simplifyit.hu-ra!"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#14BF98"
+                android:layout_gravity="center"
+                android:gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"/>
+        </LinearLayout>
+            
+       
+            
+
+
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

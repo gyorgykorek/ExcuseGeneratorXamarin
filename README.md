@@ -1,0 +1,2 @@
+# excuserandomgenerator
+ https://play.google.com/store/apps/details?id=com.gyorgykorek.excuserandomgenerator Generate random objections and facts on the following topics: Why am I late? Why isn't it ready by the deadline? Why am I not training today? Why don't I start today? Why can't I sleep with you? Economics Informatics - Programming Law Technical Art Medical and health sciences Sports science COD: Warzone Content is being expanded! 
